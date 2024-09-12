@@ -10,15 +10,24 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700&family=Roboto:wght@100;400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <header>
+    <div class="header-container">
       <nav>
         <a class="header" href="./index.html"
-          >Web<span class="span">Studio</span></a
-        >
-        <ul>
+          >Web<span class="span">Studio</span></a>
+
+        <ul class="menu-nav">
           <li><a href="./index.html" class="link">Studio</a></li>
           <li><a href="" class="link">Portfolio</a></li>
           <li><a href="" class="link">Contacts</a></li>
@@ -26,7 +35,7 @@
       </nav>
 
       <address class="address">
-        <ul>
+        <ul class="menu-address">
           <li>
             <a href="mailto:info@devstudio.com" class="address-link"
               >info@devstudio.com</a
@@ -39,8 +48,11 @@
           </li>
         </ul>
       </address>
+    </div>
     </header>
+    
 
+<div class="container">
     <main>
       <section class="button-section">
         <h1 class="button-section-heading">
@@ -48,10 +60,12 @@
         </h1>
         <button type="button" class="button">Order Service</button>
       </section>
+</div>
 
-      <section>
+<div class="main-container">
+      <section class="main-section">
         <h2 class="main-heading">Benefits</h2>
-        <ul>
+        <ul class="main-ul">
           <li>
             <h3 class="main-list-heading">Strategy</h3>
             <p class="main-list">
@@ -82,10 +96,12 @@
           </li>
         </ul>
       </section>
+</div>
 
-      <section class="team">
+<div class="team-container">
+      <section class="team-section">
         <h2 class="team-heading">Our Team</h2>
-        <ul>
+        <ul class="team-list">
           <li class="team-pic">
             <img
               src="./images/img.jpg"
@@ -128,10 +144,11 @@
           </li>
         </ul>
       </section>
-
+</div>
+<div class="portfolio-container">
       <section class="portfolio">
         <h2 class="team-heading">Our Portfolio</h2>
-        <ul>
+        <ul class="portfolio-list">
           <li>
             <img
               src="./images/img1.jpg"
@@ -194,7 +211,10 @@
           </li>
         </ul>
       </section>
+      </div>
     </main>
+
+    <div class="container">
     <footer class="footer">
       <a class="header" href="./index.html"
         >Web<span class="span-footer">Studio</span></a
@@ -204,5 +224,6 @@
         marketing & growth solutions.
       </p>
     </footer>
+  </div>
   </body>
 </html>

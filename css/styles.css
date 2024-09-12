@@ -7,6 +7,10 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+box-sizing: border-box;
+padding-left: 156px;
+padding-top: 24px;
+padding-bottom: 24px;
 }
 
 .span {
@@ -30,6 +34,8 @@
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin: 0;
+  padding-left: 0;
 }
 
 .link:focus {
@@ -55,6 +61,8 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+  margin: 0;
+  padding-left: 0;
 }
 
 .address-link {
@@ -77,6 +85,9 @@ body {
 
 .button-section {
   background-color: #2e2f42;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  box-sizing: border-box;
 }
 
 .button-section-heading {
@@ -88,6 +99,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  margin: 0;
 }
 
 .button {
@@ -118,6 +130,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin: 0;
 }
 
 .main-list {
@@ -128,6 +141,8 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+  margin: 0;
+  padding-left: 0;
 }
 
 .main-list-heading {
@@ -139,10 +154,14 @@ body {
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin: 0;
 }
 
-.team {
+.team-section {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  box-sizing: border-box;
 }
 
 .team-heading {
@@ -155,6 +174,7 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
+margin: 0;
 }
 
 .team-description {
@@ -167,6 +187,7 @@ text-transform: capitalize;
   text-align: center;
   color: #434455;
   background-color: ;#FFFFFF;
+  margin: 0;
 }
 
 .team-pic {
@@ -186,6 +207,7 @@ font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
 color: #434455;
+margin: 0;
 }
 
 .footer {
@@ -212,8 +234,50 @@ color: #434455;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  margin: 0;
 }
 
 a {text-decoration: none;}
 
 ul {list-style: none;}
+
+
+
+.header-container { 
+border-bottom: 1px solid #e7e9fc;
+width: 1440px;
+height: 72px;
+display: flex;
+box-sizing: border-box;
+
+}
+
+.menu-nav {
+ width: 261px;
+height: 24px;
+display: flex;
+padding-left: 347px;
+}
+
+.menu-address {
+display: flex;
+padding-right: 156px;
+}
+
+.main-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  box-sizing: border-box;
+}
+.main-ul {
+  display:flex;
+}
+
+.team-list {
+  display: flex;
+}
+
+.portfolio-list {
+  display: flex;
+  box-sizing: border-box;
+}
