@@ -177,14 +177,12 @@ body {
 
 /* Section 2 */
 .visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
   position: absolute;
-  white-space: nowrap;
   width: 1px;
-}
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 
 .main-list {
   font-family: "Roboto", sans-serif;
@@ -210,6 +208,18 @@ body {
   margin-bottom: 8px;
   text-align: center;
 }
+
+.container-main {
+    border-bottom: 1px solid #e7e9fc;
+  width: 1440px;
+  height: 72px;
+  display: flex;
+  box-sizing: border-box;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
+
 
 .container-main-list-heading {
   padding: 32px 0;
