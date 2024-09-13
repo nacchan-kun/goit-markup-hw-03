@@ -176,7 +176,7 @@ body {
 }
 
 /* Section 2 */
-.main-heading {
+.visually-hidden {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
