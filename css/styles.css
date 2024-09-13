@@ -177,13 +177,6 @@ body {
 
 /* Section 2 */
 .visually-hidden {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin: 0;
-
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   height: 1px;
@@ -233,7 +226,8 @@ body {
 }
 
 .main-list-ul {
-  flex-basis: calc((100%-3 * 24px) / 4);
+  justify-content: left;
+  width: calc((100% - 72px) / 4);
 }
 
 /* Section 3 */
