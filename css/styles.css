@@ -168,11 +168,8 @@ section {
 .button-section-heading {
   font-family: "Roboto", sans-serif;
   font-size: 56px;
-
-  /* line-height: 60px; */
   line-height: 107%;
   letter-spacing: 0.02em;
-
   color: #fff;
   margin: auto;
   max-width: 496px;
@@ -204,11 +201,7 @@ section {
   margin-right: auto;
 }
 
-.button:hover {
-  background-color: #404bbf;
-}
-
-.button:focus {
+.button:hover .button:focus {
   background-color: #404bbf;
 }
 
@@ -365,6 +358,15 @@ section {
 .footer-header {
   display: inline-block;
   margin-bottom: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+
+  /* line-height: 21px; */
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .span-footer {
@@ -376,7 +378,7 @@ section {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 
 .footer-description {
