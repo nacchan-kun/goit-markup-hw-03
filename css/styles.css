@@ -269,7 +269,6 @@ a {
 .team-container {
   max-width: 1158px;
   padding: 0 15px;
-  margin-left: 156px;
 }
 
 .team-heading {
@@ -340,7 +339,7 @@ a {
 .portfolio-container {
   max-width: 1158px;
   padding: 0 15px;
-  margin-left: 156px;
+
   border: 1px solid #e7e9fc;
 }
 
@@ -351,7 +350,6 @@ a {
   margin: auto;
   list-style: none;
   row-gap: 48px;
-  width: calc((100% - 72px) / 4);
 }
 
 .card {
