@@ -247,7 +247,7 @@ a {
 .main-list-ul {
   width: 264px;
   height: 104px;
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   border-top: none;
 }
 
