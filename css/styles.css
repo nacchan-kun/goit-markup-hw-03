@@ -248,6 +248,7 @@ a {
   width: 264px;
   height: 104px;
   width: calc((100% - 72px) / 4);
+  border-top: none;
 }
 
 /* Section 3 */
@@ -357,10 +358,7 @@ a {
   width: 360px;
   height: 420px;
   background: #fff;
-}
-
-.portfolio-item-banking-app {
-  width: calc((100% - 72px) / 3);
+  width: calc((100% - 72px) / 4);
 }
 
 .container-portfolio-item {
