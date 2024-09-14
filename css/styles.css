@@ -352,6 +352,7 @@ a {
   margin: auto;
   list-style: none;
   row-gap: 48px;
+  width: calc((100% - 72px) / 4);
 }
 
 .card {
@@ -366,6 +367,7 @@ a {
   padding: 32px 16px;
   width: 360px;
   height: 120px;
+  border-top: none;
 }
 
 /* Footer */
